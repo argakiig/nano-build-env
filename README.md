@@ -13,7 +13,7 @@ Pull `argakiig/nano-build-env-${compiler}` from Docker Repository:
 Or build `argakiig/nano-build-env-${compiler}` from source:
 
 	git clone https://github.com/argakiig/nano-build-env
-	docker build -t argakiig/nano-build-env-{gcc|clang} .
+	docker build -t argakiig/nano-build-env-{gcc|clang} -f DockerFile-{gcc|clang} .
 
 ### Run
 
