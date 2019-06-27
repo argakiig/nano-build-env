@@ -7,12 +7,10 @@ jobs:
       name: "gcc"
       os: linux
       compiler: gcc
-      env: COMPILER=gcc
       script: 
-        - deploy-docker.sh;
+        - ./deploy-docker.sh;
     - name: "clang"
       os: linux
       compiler: clang
-      env: COMPILER=clang
       script: 
-        - deploy-docker.sh;
+        - ./deploy-docker.sh;
